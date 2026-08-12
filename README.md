@@ -1,5 +1,7 @@
 # memoria-agentes-codigo
 
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
 Material suplementar do artigo **"Tipos Diferentes e Casos de Uso de Memória em Agentes de
 Código Pessoais"**, de João Pedro Pinheiro de Oliveira da Mota Barros, Programa de
 Pós-Graduação em Tecnologias da Inteligência e Design Digital (TIDD), PUC-SP, submetido ao
@@ -65,8 +67,10 @@ Pra adotar o padrão num sistema próprio:
 
 ## Licença
 
-Este repositório é distribuído sob [CC BY 4.0](LICENSE). Uso, adaptação e redistribuição são
-livres, com atribuição.
+Este repositório é distribuído sob **Creative Commons Attribution 4.0 International (CC BY
+4.0)**. Uso, adaptação e redistribuição são livres, com atribuição. Texto da licença em
+[`LICENSE`](LICENSE) (com o legalcode completo em [`LICENSE-full.txt`](LICENSE-full.txt)) e na
+página oficial: <https://creativecommons.org/licenses/by/4.0/>.
 
 ## Como citar
 
