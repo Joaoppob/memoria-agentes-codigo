@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: >-
+  Se este material for útil, cite o artigo listado em preferred-citation.
+  Para citar este repositório de material suplementar especificamente,
+  use os metadados abaixo.
+title: >-
+  memoria-agentes-codigo: material suplementar de "Tipos Diferentes e
+  Casos de Uso de Memória em Agentes de Código Pessoais"
+type: software
+authors:
+  - family-names: Barros
+    given-names: João Pedro Pinheiro de Oliveira da Mota
+    affiliation: >-
+      Pontifícia Universidade Católica de São Paulo (PUC-SP), Programa de
+      Pós-Graduação em Tecnologias da Inteligência e Design Digital (TIDD)
+license: CC-BY-4.0
+version: 1.0.0
+date-released: "[a definir]"
+repository-code: "[a definir]"
+abstract: >-
+  Repositório de material suplementar com exemplares sintéticos das seis
+  camadas de memória propostas no artigo "Tipos Diferentes e Casos de Uso
+  de Memória em Agentes de Código Pessoais": identidade, configuração
+  persistente, memória procedural, conhecimento curado, memória episódica
+  e aprendizado destilado, e memória de transição. Os exemplares
+  instanciam um cenário fictício coerente, escrito para este depósito.
+preferred-citation:
+  type: article
+  title: >-
+    Tipos Diferentes e Casos de Uso de Memória em Agentes de Código
+    Pessoais
+  authors:
+    - family-names: Barros
+      given-names: João Pedro Pinheiro de Oliveira da Mota
+  journal: Journal on Interactive Systems
+  year: 2026
+  volume: "[a definir]"
+  issue: "[a definir]"
+  start: "[a definir]"
+  end: "[a definir]"
+  doi: "[a definir]"
