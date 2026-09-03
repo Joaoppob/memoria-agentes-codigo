@@ -1,11 +1,17 @@
 # memoria-agentes-codigo
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22264916.svg)](https://doi.org/10.5281/zenodo.22264916)
 
 Material suplementar do artigo **"Tipos Diferentes e Casos de Uso de Memória em Agentes de
 Código Pessoais"**, de João Pedro Pinheiro de Oliveira da Mota Barros, Programa de
 Pós-Graduação em Tecnologias da Inteligência e Design Digital (TIDD), PUC-SP, submetido ao
-*Journal on Interactive Systems* (JIS/SBC). DOI do artigo: `[a definir]`.
+*Journal on Interactive Systems* (JIS/SBC). O DOI do artigo será atribuído na publicação.
+
+Este repositório está arquivado no Zenodo com identificador persistente:
+**[10.5281/zenodo.22264916](https://doi.org/10.5281/zenodo.22264916)** — DOI conceitual, que
+aponta sempre para a versão mais recente. A versão v1.0.0 tem o DOI
+[10.5281/zenodo.22264917](https://doi.org/10.5281/zenodo.22264917).
 
 O artigo propõe seis tipos de memória para Agentes de Código pessoais, diferenciados pelo regime
 em que cada um é carregado no contexto do agente: quando entra, sob qual condição, e por quanto
