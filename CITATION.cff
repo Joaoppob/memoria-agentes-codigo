@@ -10,13 +10,14 @@ type: software
 authors:
   - family-names: Barros
     given-names: João Pedro Pinheiro de Oliveira da Mota
+    orcid: "https://orcid.org/0009-0004-3544-6894"
     affiliation: >-
       Pontifícia Universidade Católica de São Paulo (PUC-SP), Programa de
       Pós-Graduação em Tecnologias da Inteligência e Design Digital (TIDD)
 license: CC-BY-4.0
 version: 1.0.0
-date-released: "[a definir]"
-repository-code: "[a definir]"
+date-released: "2026-09-02"
+repository-code: "https://github.com/Joaoppob/memoria-agentes-codigo"
 abstract: >-
   Repositório de material suplementar com exemplares sintéticos das seis
   camadas de memória propostas no artigo "Tipos Diferentes e Casos de Uso
@@ -32,10 +33,7 @@ preferred-citation:
   authors:
     - family-names: Barros
       given-names: João Pedro Pinheiro de Oliveira da Mota
+      orcid: "https://orcid.org/0009-0004-3544-6894"
   journal: Journal on Interactive Systems
   year: 2026
-  volume: "[a definir]"
-  issue: "[a definir]"
-  start: "[a definir]"
-  end: "[a definir]"
-  doi: "[a definir]"
+  notes: "Submitted; volume, pages and DOI to be assigned upon publication."
