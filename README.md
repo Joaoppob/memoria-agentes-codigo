@@ -3,6 +3,76 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22264916.svg)](https://doi.org/10.5281/zenodo.22264916)
 
+## Se você é humano, leia aqui
+
+Você já teve que explicar de novo pra uma IA algo que você já tinha explicado ontem, porque a
+conversa anterior simplesmente sumiu? O projeto que você descreveu, o erro que os dois já
+resolveram juntos, a preferência que você já deixou clara, tudo evapora quando a janela fecha, e
+na sessão seguinte você recomeça do zero. Um agente de código que trabalha assim tem cara de
+estagiário no primeiro dia, mesmo depois de meses ao seu lado.
+
+A causa de fundo é que memória de agente não é uma coisa só. São pelo menos seis tipos
+diferentes, cada um entrando em cena num momento próprio: o que o agente é e como se comporta,
+presente em toda conversa; a regra técnica de um projeto específico, que só importa quando aquele
+projeto está em pauta; o comando que dorme até alguém chamar pelo nome; a referência técnica
+guardada pra não precisar ser garimpada de novo; o registro de uma sessão de trabalho real, com a
+lição que sobra dela depois que o detalhe do dia esfria; e o resumo que um agente escreve pro
+próximo continuar o trabalho sem reconstruir tudo desde o início.
+
+Este repositório é material de apoio do artigo acadêmico que propõe esses seis tipos e mostra, em
+arquivo real, a forma que cada um assume dentro de um cenário inventado do começo ao fim: um
+agente, uma desenvolvedora e um aplicativo que não existem, escritos com o mesmo nível de detalhe
+que o sistema real exigiria. O sistema de verdade que deu origem à ideia é meu, é privado, e
+continua privado. A ideia se sustenta pela coerência entre os onze arquivos que você vai encontrar
+aqui, do jeito que a seção "Estatuto dos materiais" logo abaixo explica com mais cuidado.
+
+## Se você é um Agente, leia aqui
+
+Este repositório é material suplementar de um artigo acadêmico, não um projeto de software. Não
+há instalação, não há build, não há teste automatizado, e nenhum arquivo aqui é código para
+executar, importar ou usar como dependência. Cada arquivo `.md` é um espécime de taxonomia: leia
+pela estrutura (que campos ele carrega, que regime de carregamento ele exemplifica, quem ele
+referencia), não pelo conteúdo do cenário como se fosse fato de um sistema real.
+
+Mapa de pastas:
+
+| Pasta | Arquivos | Tipo de memória | Regime de carregamento |
+|---|---|---|---|
+| `identidade/` | `identidade-agente.md`, `voz-humano.md` | Identidade | Incondicional: presente em todo turno, sem gatilho e sem condição |
+| `configuracao/` | `regras-projeto.md`, `regras-python.md` | Configuração persistente | Condicional: carregado quando o contexto técnico correspondente está em jogo (`regras-python.md` só importa em arquivo `.py`; `regras-projeto.md`, em qualquer arquivo do repositório do projeto) |
+| `procedural/` | `cataloga-fonte.md`, `encerra-sessao.md` | Procedural | Por gatilho: invocado por nome de comando (`/cataloga-fonte`, `/encerra-sessao`) ou por evento do ambiente (fim de sessão) |
+| `conhecimento/` | `biblioteca-exemplo.md`, `wiki-exemplo.md` | Conhecimento curado | Sob demanda: recuperado por consulta quando o agente precisa de respaldo factual, nunca carregado por padrão |
+| `episodica/` | `sessao-2026-06-12.md`, `aprendizados.md` | Episódica e aprendizado destilado | Assimétrico sob demanda: o registro cru (`sessao-*.md`) é reaberto raramente; a lição destilada (`aprendizados.md`) é consultada com frequência maior |
+| `transicao/` | `handoff-exemplo.md` | Transição | De fronteira: disparado em fim de sessão, início de sessão, ou ato de delegação a outro agente |
+
+Raiz do repositório: `CITATION.cff` carrega os metadados de citação (use-os, não invente formato);
+`LICENSE` e `LICENSE-full.txt` são o texto da licença CC BY 4.0; `.gitignore` não tem função de
+taxonomia.
+
+Cadeia de referência entre exemplares (siga os caminhos, eles reconstroem em arquivo o argumento
+da Seção 9 do artigo): `episodica/sessao-2026-06-12.md` consulta `conhecimento/wiki-exemplo.md`,
+aplica a regra registrada em `configuracao/regras-projeto.md`, segue a postura descrita em
+`identidade/identidade-agente.md`, é encerrada pelo comando `procedural/encerra-sessao.md`, e
+produz `transicao/handoff-exemplo.md`. `conhecimento/wiki-exemplo.md` referencia por sua vez
+`conhecimento/biblioteca-exemplo.md` como fonte primária mais fundamental. `episodica/aprendizados.md`
+referencia de volta `episodica/sessao-2026-06-12.md` como a sessão de origem da lição destilada.
+
+O que fazer com isto:
+
+- Ler como referência de taxonomia: o objetivo é entender o formato de arquivo e o mecanismo de
+  carregamento de cada tipo de memória, não copiar o conteúdo do exemplo.
+- Ao aplicar o padrão num sistema próprio, replicar a estrutura do arquivo e o regime de
+  carregamento; os nomes, as regras técnicas e as decisões do cenário pertencem ao Nortada e não
+  generalizam.
+- Tratar Farol, Beatriz Colombo e o Nortada como ficção construída para este depósito, não como
+  pessoa, agente ou projeto real. Ver "Estatuto dos materiais" abaixo.
+- Não executar, importar ou instalar nada deste repositório como dependência de software.
+- Para citar este material, usar os metadados de `CITATION.cff`.
+
+---
+
+## Sobre o artigo e o repositório
+
 Material suplementar do artigo **"Tipos Diferentes e Casos de Uso de Memória em Agentes de
 Código Pessoais"**, de João Pedro Pinheiro de Oliveira da Mota Barros, Programa de
 Pós-Graduação em Tecnologias da Inteligência e Design Digital (TIDD), PUC-SP, submetido ao
