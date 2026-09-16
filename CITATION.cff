@@ -26,7 +26,7 @@ abstract: >-
   e aprendizado destilado, e memória de transição. Os exemplares
   instanciam um cenário fictício coerente, escrito para este depósito.
 preferred-citation:
-  type: article
+  type: unpublished
   title: >-
     Tipos Diferentes e Casos de Uso de Memória em Agentes de Código
     Pessoais
@@ -34,6 +34,5 @@ preferred-citation:
     - family-names: Barros
       given-names: João Pedro Pinheiro de Oliveira da Mota
       orcid: "https://orcid.org/0009-0004-3544-6894"
-  journal: Journal on Interactive Systems
   year: 2026
-  notes: "Submitted; volume, pages and DOI to be assigned upon publication."
+  notes: "Manuscript in preparation; not yet submitted for peer review. Intended for future submission to the Journal on Interactive Systems (JIS/SBC)."

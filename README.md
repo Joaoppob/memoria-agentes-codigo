@@ -75,8 +75,10 @@ O que fazer com isto:
 
 Material suplementar do artigo **"Tipos Diferentes e Casos de Uso de Memória em Agentes de
 Código Pessoais"**, de João Pedro Pinheiro de Oliveira da Mota Barros, Programa de
-Pós-Graduação em Tecnologias da Inteligência e Design Digital (TIDD), PUC-SP, submetido ao
-*Journal on Interactive Systems* (JIS/SBC). O DOI do artigo será atribuído na publicação.
+Pós-Graduação em Tecnologias da Inteligência e Design Digital (TIDD), PUC-SP, em preparação
+para submissão futura ao *Journal on Interactive Systems* (JIS/SBC). O artigo ainda não foi
+submetido e não possui DOI; este repositório é material suplementar já depositado e citável
+(DOI abaixo).
 
 Este repositório está arquivado no Zenodo com identificador persistente:
 **[10.5281/zenodo.22264916](https://doi.org/10.5281/zenodo.22264916)** — DOI conceitual, que
@@ -151,15 +153,22 @@ página oficial: <https://creativecommons.org/licenses/by/4.0/>.
 ## Como citar
 
 ```bibtex
-@article{barros2026memoria,
-  author  = {Barros, João Pedro Pinheiro de Oliveira da Mota},
-  title   = {Tipos Diferentes e Casos de Uso de Memória em Agentes de Código Pessoais},
-  journal = {Journal on Interactive Systems},
-  year    = {2026},
-  volume  = {[a definir]},
-  number  = {[a definir]},
-  pages   = {[a definir]},
-  doi     = {[a definir]}
+@misc{barros2026memoriazenodo,
+  author    = {Barros, João Pedro Pinheiro de Oliveira da Mota},
+  title     = {memoria-agentes-codigo: material suplementar de "Tipos Diferentes e
+               Casos de Uso de Memória em Agentes de Código Pessoais"},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.22264916},
+  url       = {https://doi.org/10.5281/zenodo.22264916}
+}
+
+@unpublished{barros2026memoriamanuscrito,
+  author = {Barros, João Pedro Pinheiro de Oliveira da Mota},
+  title  = {Tipos Diferentes e Casos de Uso de Memória em Agentes de Código Pessoais},
+  year   = {2026},
+  note   = {Manuscript in preparation, intended for future submission to the Journal
+            on Interactive Systems (JIS/SBC).}
 }
 ```
 
