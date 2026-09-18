@@ -1,11 +1,13 @@
 # memoria-agentes-codigo
 
+Sistema de memórias para Agentes de Código: seis tipos, demonstrados em arquivo real.
+
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22264916.svg)](https://doi.org/10.5281/zenodo.22264916)
 
 ## Se você é humano, leia aqui
 
-Você já teve que explicar de novo pra uma IA algo que você já tinha explicado ontem, porque a
+Este repositório é um sistema de memórias para Agentes de Código. Você já teve que explicar de novo pra uma IA algo que você já tinha explicado ontem, porque a
 conversa anterior simplesmente sumiu? O projeto que você descreveu, o erro que os dois já
 resolveram juntos, a preferência que você já deixou clara, tudo evapora quando a janela fecha, e
 na sessão seguinte você recomeça do zero. Um agente de código que trabalha assim tem cara de
